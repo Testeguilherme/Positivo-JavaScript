@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorteador</title>
     <link rel="stylesheet" href="base.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         rell="stylesheet">
 </head>
@@ -33,19 +34,6 @@
         <span id="resultado" class="display-1"></span>
     </div>
     <br><br><br>
-
-    <script>
-        function botaoSortear() {
-            let min = document.getElementById("mini").value;
-            let minimo = parseInt(min);
-            let max = document.getElementById("maxi").value;
-            let maximo = parseInt(max);
-            let result = Math.floor((Math.random() * (maximo - minimo + 1)) + minimo);
-            document.getElementById("resultado").innerHTML = result;
-        }
-    </script>
-
-
 
 </body>
 
