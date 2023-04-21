@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+
+    <link rel="stylesheet" href="base.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rell="stylesheet">
+
+</head>
+<body>
+
+    <div class="container mt-3 rounded">
+        <div class="card mb-3">
+                <div>
+                    <h1 class="titulow text-center display-1 ">Universo Marvel</h1>
+
+                    <select class="sele form-select mb-2 mt-4" aria-label="Default select example" id="select">
+                        <option value="marvelete" selected>Selecione um Herói</option>
+                        <option value="Homem de Ferro">Homem de Ferro</option>
+                        <option value="Capitao America">Capitão América</option>
+                        <option value="Homem Aranha">Homem-Aranha</option>
+                        <option value="Hulk">Incrível Hulk</option>
+                    </select>
+                    <div class="caixa mb-5">
+                        <div class="diviImg text-center">
+                        <img width="780" height="400" src="./img/mar.jpg" alt="" id="imgHeroi" class="heroile mt-3">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="m-3 mt-5">
+                    <h2>Curiosidades sobre o Herói</h2>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" value="origem" name="Pacote" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Origem
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" value="poderes" name="Pacote" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                        Poderes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" value="pessoal" name="Pacote" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                        Vida pessoal
+                        </label>
+                    </div>
+                    <button class="mt-3 mb-3 btn btn-danger" onclick="getCheck()">Buscar</button>
+
+                    <p class="mt-3">
+                        <span class="output"></span>
+                    </p>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>
