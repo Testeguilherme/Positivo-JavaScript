@@ -1,5 +1,7 @@
 package teste;
 
+//GUILHERME FRIAS, LEONARDO OLIVEIRA, VICTOR MOTA
+
 public class Candidato {
 	
 	private String nome;
