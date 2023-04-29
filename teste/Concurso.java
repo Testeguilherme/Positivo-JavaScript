@@ -3,6 +3,8 @@ package teste;
 import java.util.ArrayList;
 import java.util.List;
 
+//GUILHERME FRIAS, LEONARDO OLIVEIRA, VICTOR MOTA
+
 public class Concurso {
 	
 	String[] listaConcurso = new String[] {"a","b","c","d","e","a","b","c","d","e"};
